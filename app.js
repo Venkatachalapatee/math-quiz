@@ -1,5 +1,5 @@
 const Alexa = require('alexa-sdk');
-const APP_ID = ''; // TODO replace with your app ID (OPTIONAL).
+const APP_ID = process.env.APP_ID; // TODO replace with your app ID (OPTIONAL).
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
