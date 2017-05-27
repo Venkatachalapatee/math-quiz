@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "name": "AdditionsIntent",
+      "samples": [
+        "add",
+        "add quiz",
+        "addition",
+        "additions",
+        "start addition"
+      ],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": [
+        "Stop",
+        "Goodbye"
+      ]
+    },
+    {
+      "name": "ResponseIntent",
+      "samples": [
+        "{Answer}"
+      ],
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    }
+  ]
+}
